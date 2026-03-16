@@ -7,7 +7,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
-  The first things that I noticed was that the hints were in fact backwards. If the number was higher than my guess, then it said go lower instead, and vice verse. The second thing I noticed was that I could not start a new game. Everytime I pressed the button for a new game, nothing would happen. Something else I realized was that I was able to put in number that were out of bounds, for instance, I could put in 9001 despite the range being from 1 to 100, and the game would allow it instead of telling me it was out of bounds. Additionally, I'm not sure if this is a bug or intended game design or not, but whereas most games have the lowest score possible be 0, this game allows for negative score.
 
 ---
 
@@ -38,11 +37,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
-  I'll be honest, I never saw the secret number changing in the original app, so if there was something wrong with the secret number, then I must have somehow accidently fixed it while fixing something else.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
 - What change did you make that finally gave the game a stable secret number?
-  Again, I never noticed the secret number changing, so I don't know exactly what I did to make a stable secret number.
 
 ---
 
